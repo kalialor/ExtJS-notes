@@ -1,0 +1,44 @@
+Classes allow you to define reusable components, models, stores, views, & more. Classes provide a way to encapsulate functionality, properties, and behaviors into modular units, making it easier to create and maintain complex applications.
+
+To define a class in Ext JS, you typically use the ‘Ext.define()’ method, which allows you to specify the class name, extend a parent class, and provide a configuration object containing properties, methods, and other class-specific settings.
+
+Classes in Ext Js can inherit behavior and properties from parent classes by specifying the parent class using  the ‘extend’ property in the class definition. This enables code reuse and facilitates the building of hierarchies of related classes.
+
+
+
+
+Ex: 
+
+// Define a custom class called 'Person'
+Ext.define('MyApp.model.Person', {
+  // Extend the base class 'Ext.data.Model'
+  extend: 'Ext.data.Model',
+
+  // Define the fields (properties) of the Person class
+  fields: [
+    { name: 'name', type: 'string' },
+    { name: 'age', type: 'int' },
+    { name: 'email', type: 'string' }
+  ],
+
+  // Define a custom method within the Person class
+  greet: function() {
+    var name = this.get('name');
+    console.log('Hello, ' + name + '!');
+  }
+});
+
+// Create an instance of the Person class
+var person = Ext.create('MyApp.model.Person', {
+  name: 'John',
+  age: 30,
+  email: 'john@example.com'
+});
+
+// Access the properties of the person instance
+console.log(person.get('name'));  // Output: John
+console.log(person.get('age'));   // Output: 30
+console.log(person.get('email')); // Output: john@example.com
+
+// Call the custom method of the person instance
+person.greet(); // Output: Hello, John!
