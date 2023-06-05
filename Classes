@@ -42,3 +42,46 @@ console.log(person.get('email')); // Output: john@example.com
 
 // Call the custom method of the person instance
 person.greet(); // Output: Hello, John!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Certainly! 'MyApp.model.Person' is a string representation of the fully qualified name (also known as the class name or xtype) of a class in Sencha Ext JS. In this case, it represents the class 'Person' within the namespace 'MyApp.model'.
+
+Here's a breakdown of the string 'MyApp.model.Person':
+
+'MyApp': This refers to the namespace or package name of your application. It is typically unique to your application and helps to organize your codebase. Namespaces are commonly used to prevent naming conflicts and provide a logical structure to your classes.
+
+'model': This represents the namespace or sub-namespace within 'MyApp' where the 'Person' class resides. In this example, it indicates that the 'Person' class is part of the model layer of your application. The use of sub-namespaces helps further categorize and organize your classes based on their functionality or purpose.
+
+'Person': This is the actual class name. It identifies the specific class within the 'MyApp.model' namespace. The class name is typically in PascalCase, starting with an uppercase letter, and should reflect the purpose or type of the class.
+
+When defining or referencing a class in Sencha Ext JS, the fully qualified class name is used as a unique identifier to locate and work with the class. It ensures that there are no naming conflicts between classes and helps maintain a clear and organized structure for your application's codebase.
+
+In your application, you would typically use the fully qualified class name to define classes, create instances, and reference classes in various parts of your application, such as views, models, stores, and controllers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
