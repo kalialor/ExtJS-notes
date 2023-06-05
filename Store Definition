@@ -1,0 +1,21 @@
+In Ext JS, a store is a key component that manages and stores collections of data. It serves as a client-side cache of data that can be easily accessed and manipulated. The store provides methods for loading, filtering, sorting, and saving data.
+
+Here are a few important aspects of an Ext JS store:
+
+Data Source: A store can be connected to various data sources, such as an API endpoint, a database, or local data. It can retrieve data from these sources and cache it locally for efficient access.
+
+Model Definition: A store is typically associated with a data model that defines the structure and properties of the data. The store uses this model to create instances of data objects and manage them within the store.
+
+CRUD Operations: Stores support common CRUD (Create, Read, Update, Delete) operations. They provide methods to load data, add new records, update existing records, and remove records. These operations can be performed on the store's data locally and, if needed, synchronized with the server.
+
+Data Manipulation: Stores offer powerful data manipulation capabilities. They can filter, sort, and group data based on different criteria. Additionally, stores can be bound to UI components, such as grids or lists, allowing automatic updates to the user interface when the data in the store changes.
+
+Overall, an Ext JS store acts as an abstraction layer that simplifies data management within an application. It handles the retrieval, storage, and manipulation of data, making it easier for developers to work with and display data in their applications.
+
+
+
+
+
+
+
+A store is a collection of records

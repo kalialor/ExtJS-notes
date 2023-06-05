@@ -1,0 +1,127 @@
+3 Ways to Open a New Project:
+
+-Using Command Prompt
+-Using Npm (ext-gen)
+-Rapid Ext JS
+
+
+
+
+
+
+
+
+
+https://docs.sencha.com/extjs/7.6.0/guides/getting_started/getting_started_with_zip.html
+
+"Getting Started with Zip" (Commmand Prompt) (This will install the classic version)
+
+-sencha generate app --ext MyApp ./MyApp
+
+-type in code . in the command prompt
+
+-then type in sencha app watch in the MyApp folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://docs.sencha.com/extjs/7.6.0/guides/getting_started/getting_started_with_npm.html
+"Getting Started with npm" (This will install the modern version)
+
+
+Download ext-gen if you don't have it installed:
+npm install -g @sencha/ext-gen
+
+
+
+Then create a folder.
+
+Run this command: ext-gen app -a -t moderndesktop -n ModernApp
+
+
+cd ./modern-app
+
+
+Then code .  (in command prompt)
+
+
+
+
+Run this npm command to start exploring your project. This will open your browser with the application entry point.
+
+npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rapid Ext JS (in Beta)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2 Kinds of Toolkits for Ext JS:
+
+-Modern (used to be Sencha Touch)
+-Classic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

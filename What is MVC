@@ -1,0 +1,36 @@
+Most classes are either Models, Views, or Controllers
+
+
+
+Model: The model represents the data and business logic of an application. It manages the data, performs calculations, and responds to data queries or updates.  This is the data for your application. A set of classes (called “Models”) defines the fields for their data (e.g. a User model with user-name and password fields). Models know how to persist themselves through the data package and can be linked to other models via associations.
+
+Models are normally used in conjunction with Stores to provide data for grids and other components. Models are also an ideal location for any data logic that you may need, such as validation, conversion, etc.
+
+
+
+
+
+View: The view is responsible for displaying the user interface to the user. It presents the data from the model in a visually understandable format and allows users to interact with the application.
+
+
+
+Controller: The controller acts as an intermediary between the model and the view. It receives user input from the view and updates the model accordingly. It also listens to changes in the model and updates the view to reflect those changes. Controllers are used as a place to maintain the view's logic that makes your app work. This could entail rendering views, routing, instantiating Models, and any other sort of app logic.
+
+
+
+
+
+
+
+
+The key idea behind MVC is to separate the concerns of data management, user interface, and user interaction. This separation helps in organizing code, making it easier to maintain, test, and modify. It also promotes code reusability since the same model can be used with different views or controllers.
+
+In a nutshell, the model manages the data and logic, the view displays the interface, and the controller handles user input and updates the model and view accordingly.
+
+
+
+
+model-data
+view-UI
+controller-events
+
