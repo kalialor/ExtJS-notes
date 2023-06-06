@@ -11,12 +11,18 @@
 
 Creating a new project:
 
-sencha -sdk C:\Users\klor\Desktop\extjs_projects\ext generate app classic LoginForm ./LoginFormclassic
+1.) First, extract the ext.7z file (if it hasn't been extracted already) (this should be outside of the project folders)
+2.) Second, create a new project directory. 
+3.) Follow the steps below
+4.) Then, sencha app watch 
 
 
 
+sencha -sdk C:\Users\klor\Desktop\extjs_projects\FoodDonationMgmtSystem\ext generate app classic FoodDonationMgmtSystem ./FoodDonationMgmtSystem
 
-The command sencha -sdk C:\Users\klor\Desktop\extjs_projects\ext generate app classic LoginForm ./LoginFormclassic is used to generate a new Ext JS application with the Classic Toolkit using the Sencha Cmd tool.
+
+
+The command sencha -sdk C:\Users\klor\Desktop\extjs_projects\FoodDonationMgmtSystem\ext generate app classic FoodDonationMgmtSystem ./FoodDonationMgmtSystem is used to generate a new Ext JS application with the Classic Toolkit using the Sencha Cmd tool.
 
 
 
@@ -31,13 +37,13 @@ generate app: This subcommand instructs Sencha Cmd to generate a new Ext JS appl
 
 classic: This option specifies that the generated application will use the Classic Toolkit. The Classic Toolkit is the traditional toolkit for building desktop-oriented Ext JS applications.
 
-LoginForm: This argument specifies the name of the application to be generated. In this case, it is "LoginForm". You can replace "LoginForm" with any desired name for your application.
+FoodDonationMgmtSystem: This argument specifies the name of the application to be generated. In this case, it is "LoginForm". You can replace "LoginForm" with any desired name for your application.
 
-./LoginFormclassic: This argument specifies the output directory where the generated application files will be placed. In this case, the output directory is set to ./LoginFormclassic, which means the generated files will be placed in a folder named "LoginFormclassic" in the current working directory. Adjust this argument to specify the desired output directory.
+./FoodDonationMgmtSystem: This argument specifies the output directory where the generated application files will be placed. In this case, the output directory is set to ./FoodDonationMgmtSystem, which means the generated files will be placed in a folder named "FoodDonationMgmtSytem" in the current working directory. Adjust this argument to specify the desired output directory.
 
 When you run the command, Sencha Cmd will generate the necessary files and folder structure for the Ext JS application using the Classic Toolkit. This includes the application's JavaScript files, resources, configuration files, and other required assets. The generated application will be set up with the basic structure and configuration needed to start building your application using the Classic Toolkit.
 
-After the generation process is complete, you can navigate to the output directory (./LoginFormclassic in this case) and start customizing and developing your Ext JS application using the generated files as a starting point.
+After the generation process is complete, you can navigate to the output directory (./FoodDonationMgmtSystem in this case) and start customizing and developing your Ext JS application using the generated files as a starting point.
 
 
 

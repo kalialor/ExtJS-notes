@@ -1,0 +1,182 @@
+Ext.define('LoginForm.view.LoginForm', {           
+    extend: 'Ext.form.Panel',
+    xtype: 'loginform',
+  
+    title: 'Login',
+    bodyPadding: 50,
+    defaultType: 'textfield',
+    defaults: {
+      anchor: '50%',
+      labelWidth: 120
+    },
+    items: [
+      {
+        fieldLabel: 'Username',
+        name: 'username',
+        allowBlank: false
+      },
+      {
+        fieldLabel: 'Password',
+        name: 'password',
+        inputType: 'password',
+        allowBlank: false
+      }
+    ],
+    buttons: [
+      {
+        text: 'Login',
+        handler: function() {
+          // Handle login button click event
+        }
+      }
+    ]
+  });
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Certainly! Here's a breakdown of each line in the example code for `LoginForm.js`:
+
+
+Ext.define('LoginForm.view.LoginForm', {
+
+- `Ext.define`: This is used to define a new class in Ext JS.
+- `'LoginForm.view.LoginForm'`: This is the name of the class being defined. It follows the convention of `<Namespace>.view.<ClassName>`, where `<Namespace>` is the namespace of your application and `<ClassName>` is the name of the class.
+
+
+
+
+
+  extend: 'Ext.form.Panel',
+
+- `extend`: This specifies the base class that the login form component extends. In this case, it extends `Ext.form.Panel`, which provides a container for form fields and buttons.
+
+
+
+
+
+
+  xtype: 'loginform',
+
+- `xtype`: This defines the xtype of the component. The xtype is a shorthand way of referring to a specific component class when creating instances of it. In this case, the xtype is set to `'loginform'`, allowing you to use it as a reference in other parts of your application.
+
+
+
+
+
+
+
+
+  title: 'Login',
+
+- `title`: This sets the title of the login form component to 'Login'. The title will be displayed at the top of the form.
+
+
+
+
+
+
+
+
+
+  bodyPadding: 10,
+
+- `bodyPadding`: This sets the padding (spacing) inside the body of the form to 10 pixels. Adjust this value as needed for proper spacing.
+
+
+
+
+
+
+
+  defaultType: 'textfield',
+
+- `defaultType`: This specifies the default type of form field to be used if not explicitly specified for individual fields. In this case, it is set to `'textfield'`, which represents a simple text input field. 
+
+
+
+
+
+
+  defaults: {
+    anchor: '100%',
+    labelWidth: 120
+  },
+
+- `defaults`: This sets default configurations for the form fields. In this example, `anchor: '100%'` makes the form fields take up the full width of the container, and `labelWidth: 120` sets the width of the field labels to 120 pixels.
+
+
+
+
+
+
+
+
+
+
+
+
+  items: [
+    {
+      fieldLabel: 'Username',
+      name: 'username',
+      allowBlank: false
+    },
+    {
+      fieldLabel: 'Password',
+      name: 'password',
+      inputType: 'password',
+      allowBlank: false
+    }
+  ],
+
+- `items`: This is an array that contains the individual form fields within the login form. In this example, there are two fields: username and password. Each field is represented by an object with properties such as `fieldLabel` (the label displayed next to the field), `name` (the name of the field), and `allowBlank` (specifying whether the field can be left empty).
+
+
+
+
+
+
+
+
+
+  buttons: [
+    {
+      text: 'Login',
+      handler: function() {
+        // Handle login button click event
+      }
+    }
+  ]
+
+
+
+
+- `buttons`: This is an array that contains the buttons within the login form. In this example, there is a single button labeled 'Login'. It is represented by an object with a `text` property that sets the button label, and a `handler` function that specifies the code to execute when the button is clicked. You can customize the `handler` function to handle the login functionality, such as validating user input and performing authentication.
+
+
+
+
+
+
+
+
+
+
+
+
