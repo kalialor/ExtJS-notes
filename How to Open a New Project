@@ -1,8 +1,43 @@
-3 Ways to Open a New Project:
+4 Ways to Open a New Project:
 
+-using sencha -sdk
 -Using Command Prompt
 -Using Npm (ext-gen)
--Rapid Ext JS
+-Rapid Ext JS (in-beta)
+
+
+
+
+
+Creating a new project:
+
+sencha -sdk C:\Users\klor\Desktop\extjs_projects\ext generate app classic LoginForm ./LoginFormclassic
+
+
+
+
+The command sencha -sdk C:\Users\klor\Desktop\extjs_projects\ext generate app classic LoginForm ./LoginFormclassic is used to generate a new Ext JS application with the Classic Toolkit using the Sencha Cmd tool.
+
+
+
+
+Let's break down the command and its options:
+
+sencha: This is the command used to interact with the Sencha Cmd tool, which is a command-line utility provided by Sencha for managing and building Ext JS applications.
+
+-sdk C:\Users\klor\Desktop\extjs_projects\ext: This option specifies the path to the Ext JS SDK (Software Development Kit) on your system. In this case, the path is set to C:\Users\klor\Desktop\extjs_projects\ext. Make sure to replace this path with the actual path to your Ext JS SDK folder.
+
+generate app: This subcommand instructs Sencha Cmd to generate a new Ext JS application.
+
+classic: This option specifies that the generated application will use the Classic Toolkit. The Classic Toolkit is the traditional toolkit for building desktop-oriented Ext JS applications.
+
+LoginForm: This argument specifies the name of the application to be generated. In this case, it is "LoginForm". You can replace "LoginForm" with any desired name for your application.
+
+./LoginFormclassic: This argument specifies the output directory where the generated application files will be placed. In this case, the output directory is set to ./LoginFormclassic, which means the generated files will be placed in a folder named "LoginFormclassic" in the current working directory. Adjust this argument to specify the desired output directory.
+
+When you run the command, Sencha Cmd will generate the necessary files and folder structure for the Ext JS application using the Classic Toolkit. This includes the application's JavaScript files, resources, configuration files, and other required assets. The generated application will be set up with the basic structure and configuration needed to start building your application using the Classic Toolkit.
+
+After the generation process is complete, you can navigate to the output directory (./LoginFormclassic in this case) and start customizing and developing your Ext JS application using the generated files as a starting point.
 
 
 
@@ -12,7 +47,38 @@
 
 
 
-https://docs.sencha.com/extjs/7.6.0/guides/getting_started/getting_started_with_zip.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://docs.sencha.com/extjs/7.6.0/guides/getting_started/getting_started_with_zip.html (For ext js 6.x and earlier)
 
 "Getting Started with Zip" (Commmand Prompt) (This will install the classic version)
 
@@ -21,6 +87,35 @@ https://docs.sencha.com/extjs/7.6.0/guides/getting_started/getting_started_with_
 -type in code . in the command prompt
 
 -then type in sencha app watch in the MyApp folder
+
+
+
+
+
+
+
+
+Explanation:
+
+sencha is the command used to interact with Sencha Cmd, which is the tool used for building and managing Ext JS applications.
+generate app is the command to generate a new Ext JS application.
+--ext specifies the path to the Ext JS SDK, which you need to provide.
+MyApp is the name of your application.
+./MyApp is the target directory where the application files will be generated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -41,7 +136,7 @@ https://docs.sencha.com/extjs/7.6.0/guides/getting_started/getting_started_with_
 
 
 https://docs.sencha.com/extjs/7.6.0/guides/getting_started/getting_started_with_npm.html
-"Getting Started with npm" (This will install the modern version)
+"Getting Started with npm" (This will install the modern version) (For ext js 7.x and later)
 
 
 Download ext-gen if you don't have it installed:
@@ -65,6 +160,26 @@ Then code .  (in command prompt)
 Run this npm command to start exploring your project. This will open your browser with the application entry point.
 
 npm start
+
+
+
+
+
+
+
+
+
+
+
+Explanation:
+
+ext-gen is the command used to generate Ext JS applications in Ext JS 7.x and later.
+app specifies that you want to generate a new application.
+-a generates an application with a universal package that can run on both desktop and mobile devices.
+-t moderndesktop specifies the template to use. In this case, the moderndesktop template is used for desktop applications.
+-n ModernApp is the name of your application. Replace ModernApp with the desired name for your application.
+
+
 
 
 

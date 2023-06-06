@@ -1,0 +1,26 @@
+In the context of Ext JS, the terms "modern" and "classic" refer to two different toolkits available within the framework. The main difference between the modern and classic toolkits lies in their underlying technologies and target platforms.
+
+Classic Toolkit:
+The classic toolkit in Ext JS is based on traditional JavaScript and HTML techniques. It is designed to target desktop web browsers and provides a rich set of UI components and features for building desktop-like web applications. The classic toolkit is focused on providing extensive support for older browsers and is compatible with a wide range of platforms and devices.
+
+
+
+
+Modern Toolkit:
+The modern toolkit, on the other hand, is built using modern web technologies such as HTML5, CSS3, and ECMAScript 6 (ES6). It is optimized for mobile and touch-enabled devices, targeting modern browsers on smartphones and tablets. The modern toolkit offers a more streamlined and lightweight architecture compared to the classic toolkit, emphasizing performance and responsiveness on mobile platforms.
+
+
+
+Here are some key differences between the modern and classic toolkits in Ext JS:
+
+a. Technology: The classic toolkit uses traditional JavaScript and HTML techniques, while the modern toolkit leverages modern web technologies such as HTML5, CSS3, and ES6.
+
+b. Target Platforms: The classic toolkit primarily targets desktop web browsers, whereas the modern toolkit is designed for mobile and touch-enabled devices.
+
+c. UI Components: Both toolkits provide a wide range of UI components, but they may have different implementations and visual styles to suit their respective target platforms.
+
+d. Performance: The modern toolkit focuses on performance optimizations for mobile devices, providing faster rendering and better touch interactions. The classic toolkit may have broader browser compatibility but may not offer the same level of mobile performance.
+
+e. Browser Support: The classic toolkit aims to support a wide range of older browsers, including Internet Explorer, while the modern toolkit is built for modern browsers and may not be compatible with older browsers.
+
+When choosing between the modern and classic toolkits in Ext JS, it's essential to consider the target platform and the specific requirements of your application. If you are building a desktop-like web application with broad browser compatibility, the classic toolkit may be more suitable. On the other hand, if your focus is on mobile devices and modern browsers, the modern toolkit would be the preferred choice.
