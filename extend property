@@ -1,0 +1,99 @@
+In Ext JS, the extend property is used to define the inheritance relationship between classes. It allows you to create new classes based on existing classes and inherit their properties, methods, and behavior.
+
+Here's how the extend property works:
+
+When defining a new class in Ext JS, you typically use the Ext.define method. Within the configuration object passed to Ext.define, you specify the extend property.
+
+The extend property specifies the base class that the new class should inherit from. It can be set to any existing class in Ext JS, including built-in Ext JS classes or custom classes that you have defined.
+
+When a new instance of the derived class is created, it inherits all the properties, methods, and behavior of the base class. You can override or add new properties and methods specific to the derived class.
+
+Here's a basic example that demonstrates the usage of the extend property:
+
+
+Ext.define('Animal', {
+  // Base class definition
+  // ...
+});
+
+Ext.define('Dog', {
+  extend: 'Animal',
+  // Derived class definition
+  // ...
+});
+
+
+
+
+
+
+In this example, the Animal class is the base class, and the Dog class is derived from it using the extend property. The Dog class inherits all the properties and methods defined in the Animal class.
+
+By using the extend property, you can create a class hierarchy and promote code reuse. It allows you to define common functionality in a base class and then specialize or extend that functionality in derived classes as needed.
+
+It's important to note that Ext JS follows a class-based inheritance model, where classes are used to create objects. The extend property plays a key role in establishing the inheritance relationships between classes and promoting code organization and reusability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yes, in the Sencha Ext JS documentation, you can find the value to use for the extend property when creating new classes. The Ext JS documentation provides detailed information about the available classes and their inheritance hierarchy.
+
+To determine the value to use for the extend property, you can refer to the documentation of the class you want to derive from. The documentation usually includes an "Inherits from" or "Extends" section that specifies the base class from which the class inherits.
+
+For example, let's say you want to create a new class that extends the Ext.panel.Panel class. In the Ext JS documentation, you can search for the Ext.panel.Panel class and find its documentation page. The documentation page will provide information about the class and its inheritance. In this case, you will see that Ext.panel.Panel extends the Ext.container.Container class.
+
+Using this information, you can set the extend property of your derived class to 'Ext.panel.Panel', indicating that your class extends the functionality of Ext.panel.Panel.
+
+Here's a simplified example:
+
+Ext.define('MyApp.MyCustomPanel', {
+  extend: 'Ext.panel.Panel',
+  // Custom panel definition
+  // ...
+});
+
+
+
+
+
+
+In this example, MyApp.MyCustomPanel is a new class that extends the Ext.panel.Panel class.
+
+By consulting the Sencha Ext JS documentation, you can determine the appropriate value for the extend property based on the desired base class for your derived class.
+
+
+
+

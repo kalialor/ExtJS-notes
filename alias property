@@ -1,0 +1,33 @@
+In ExtJS, the alias property is used to assign a shorthand or alternate name to a class. It allows you to refer to a class using a shorter or more convenient name when creating instances or referencing it in other parts of your code.
+
+The alias property is typically defined in the class configuration object when defining a new class using the Ext.define method. Here's an example:
+
+
+
+Ext.define('MyApp.MyClass', {
+    alias: 'widget.myclass',
+    // other class configuration options...
+});
+
+
+In the example above, we define a class called MyClass and assign the alias 'widget.myclass' to it. This means that we can refer to this class using the alias 'myclass' when creating instances or referencing it elsewhere in our code.
+
+
+
+
+
+
+Here's an example of creating an instance of MyClass using its alias:
+
+
+var myInstance = Ext.create('widget.myclass');
+By using the alias 'widget.myclass', we can create an instance of MyClass without explicitly referencing its full class name.
+
+
+
+
+The alias property is commonly used in ExtJS for various purposes, including creating instances of components, specifying xtype for adding components to containers, or defining plugins for other components. It helps to provide a more concise and readable code when working with ExtJS classes and components.
+
+
+
+It's important to note that the specific alias values and their usage may vary depending on the class or component. The documentation for each class or component should provide information on the available alias options and their purposes.
